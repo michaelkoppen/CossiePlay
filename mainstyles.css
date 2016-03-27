@@ -2,31 +2,85 @@
 /* CSS Document */
 
 footer {
-	margin-left:0;
-	margin-right:0;
+	
 }
 
 body {
 	background-color:#FF9;
 	text-align:center;
-	margin-left:150px;
-	margin-right:150px;	
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+topHeader {
+	border-style:solid;
+	border-width:thick;
+	background-color:#FC6
+	
 }
 .navBar {
-	list-style-type:none;
+	list-style:none;
 	margin:0;
 	padding:0;
 	background-color:#FF9;
 }
 
-span li {
+header li {
 	display:inline;
 	background-color:#FC6;
-	margin-left:10px;
+	padding-top:3px;
+	padding-right:5px;
+	padding-bottom:3px;
+	padding-left:5px;
+	border-left:1px #000 solid;
+	border-right:1px #000 solid;
+	border-top:1px #000 solid;
+	border-bottom:1px #000 solid;
+	margin-left:-5px;
+
 }
 
 a:hover {
 	background-color:blue;
 	color:yellow;		
 	text-color: yellow;
+	padding:3px;
+}
+
+a:active {
+	background-color:red;
+	color:yellow;
+}
+
+.registerButton {
+	display:inline;
+	padding: 5px;
+	background-color: #3C0;
+	width:250px;
+	margin-left:auto;
+	margin-right:auto;
+	border:#666 10px outset;
+}
+
+.registerButton a:hover {
+	background-color:#F00;
+	margin:0px;
+	padding:0px;
+}
+
+.registerButton a:active {
+	display:inline;
+	border:#666 10px inset;
+	padding: 5px;
+	background-color:#3C0;
+	width:250px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+footer {
+	margin-top:300px;
+	margin-left:0;
+	margin-right:0;
 }
