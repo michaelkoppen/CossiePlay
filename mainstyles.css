@@ -1,34 +1,43 @@
 @charset "utf-8";
 /* CSS Document */
 
-footer {
-	
+header {
+	display: block;
+	padding-bottom: 10px;
+	background-color:#121212;
+	margin-top:-20px;
+}
+
+#topHeader {
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#CCC;
+	padding-top:15px;
+}
+
+
+a {
+	text-decoration:none;
+	color:black;
 }
 
 body {
-	background-color:#FF9;
+	background-color:#DEDEDE;
 	text-align:center;
 	margin-left:auto;
 	margin-right:auto;
-	
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
-topHeader {
-	border-style:solid;
-	border-width:thick;
-	background-color:#FC6
-	
-}
 .navBar {
 	list-style:none;
 	margin:0;
 	padding:0;
-	background-color:#FF9;
 }
 
 header li {
 	display:inline;
-	background-color:#FC6;
+	background-color:#CCC;
 	padding-top:3px;
 	padding-right:5px;
 	padding-bottom:3px;
@@ -38,49 +47,126 @@ header li {
 	border-top:1px #000 solid;
 	border-bottom:1px #000 solid;
 	margin-left:-5px;
-
 }
 
-a:hover {
-	background-color:blue;
+header li:hover {
+	background-color:#039;
 	color:yellow;		
-	text-color: yellow;
-	padding:3px;
 }
 
-a:active {
-	background-color:red;
+header li:active {
+	background-color:#06F;
 	color:yellow;
 }
 
 .registerButton {
-	display:inline;
-	padding: 5px;
-	background-color: #3C0;
+	display:inline-block;
+	padding:5px;
+	background-color:#121212;
+	color:yellow;
 	width:250px;
 	margin-left:auto;
 	margin-right:auto;
+	border:#999 10px outset;
+	
+}
+
+.registerButton:hover {
+	background-color:#121212;
 	border:#666 10px outset;
 }
 
-.registerButton a:hover {
-	background-color:#F00;
-	margin:0px;
-	padding:0px;
+.registerButton:active {
+	background-color:#121212;
+	border:#666 10px inset;
 }
 
-.registerButton a:active {
-	display:inline;
+.homeLists {
+	text-align:center;
+	list-style-position:inside;
+	margin-left:5em;
+	margin-right:5em;
+}
+
+.highlight {
+	background-color:#121212;
+	color:#CCC;
+	padding:2px;
+}
+
+
+.submitButton {
+	display:inline-block;
+	padding:5px;
+	background-color:#121212;
+	color:yellow;
+	width:90px;
+	margin-left:auto;
+	margin-right:auto;
+	border:#999 10px outset;
+}
+
+.submitButton:hover {
+	background-color:#121212;
+	border:#666 10px outset;
+}
+
+.submitButton:active {
+	background-color:#121212;
 	border:#666 10px inset;
-	padding: 5px;
-	background-color:#3C0;
-	width:250px;
+}
+
+
+.aboutText {
+	margin-left:5em;
+	margin-right:5em;
+	margin-bottom:5em;
+}
+
+
+.leftCol {
+	float:left;
+	width:290px;
 	margin-left:auto;
 	margin-right:auto;
 }
 
+.rightCol {
+	float:left;
+	width:290px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+.wrapper {
+	width:580px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+table {
+	border:#000 solid thin;
+	margin:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.costume1 {
+	float:left;
+	margin:0px;
+	margin-left:20px;
+}
+
+.costume2 {
+	float:right;	
+	margin:0px;
+	margin-right:20px;
+}
+
+
 footer {
-	margin-top:300px;
-	margin-left:0;
-	margin-right:0;
+	margin-top:100px;
+	margin-left:5em;
+	margin-right:5em;
 }
